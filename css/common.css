@@ -1,0 +1,110 @@
+:root {
+  --font-color-1: #ffffff;
+  --font-color-2: #868686;
+  --background-color-1: #000000;
+  --background-color-2: #151515;
+  --border-color-1: rgba(255, 255, 255, 0.2);
+  --border-color-2: rgba(255, 255, 255, 0.15);
+}
+/* color: rgb(190, 184, 174); color: #d2d2d7;   background-color: rgba(22,22,22,0.8);*/
+body {
+  font-family: var(--bs-body-font-family);
+  background-color: var(--background-color-1);
+  color: var(--font-color-1);
+}
+
+p {
+  color: var(--font-color-2);
+  line-height: 1.45;
+  span {
+    color: var(--font-color-1);
+  }
+}
+
+hr {
+  opacity: 1;
+  margin: 35px 0;
+  border-top-color: var(--border-color-1);
+}
+
+.section {
+  padding: 80px 0;
+  background-color: var(--background-color-1);
+}
+
+.section .section-title {
+  margin-bottom: 40px;
+  h2 {
+    color: var(--font-color-1);
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin: 0;
+
+    span {
+      color: var(--font-color-2);
+    }
+  }
+  h4 {
+    color: var(--font-color-2);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.35;
+    margin: 16px 0 0 0;
+    span {
+      color: var(--font-color-1);
+    }
+  }
+}
+
+.section .section-content {
+  position: relative;
+  padding: 50px;
+  overflow: hidden;
+  border-radius: 28px;
+  background-color: var(--background-color-2);
+}
+
+.section-gray {
+  background-color: var(--background-color-2);
+  .section-content {
+    background-color: var(--background-color-1);
+  }
+}
+
+@media (max-width: 992px) {
+  .section {
+    padding: 65px 0;
+    .section-title {
+      h2 {
+        font-size: 55px;
+      }
+      h4 {
+        font-size: 24px;
+      }
+    }
+    .section-content {
+      padding: 40px;
+    }
+  }
+  .md-none-maxwidth {
+    max-width: 100% !important;
+  }
+}
+@media (max-width: 768px) {
+  .section {
+    padding: 40px 0;
+    .section-title {
+      margin-bottom: 20px;
+      h2 {
+        font-size: 30px;
+      }
+      h4 {
+        font-size: 18px;
+      }
+    }
+    .section-content {
+      padding: 30px;
+    }
+  }
+}
