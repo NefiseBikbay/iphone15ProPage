@@ -1,6 +1,6 @@
 # iPhone 15 Pro — Product Showcase Page
 
-[**Local Preview**](https://nefiinef.github.io/iphone15pro-page/)
+[**Local Preview**](https://nefisebikbay.github.io/iphone15ProPage/)
 
 This project contains the source code of a modern landing/view page created for the iPhone 15 Pro. The design is fully built on static HTML/CSS/JS.
 
